@@ -1,0 +1,80 @@
+package appium_core.java_core.programs;
+
+import java.util.Scanner;
+
+public class AddTwoMatrices_18
+{
+    public static void main(String[] args)
+    {
+        int p, q, m, n;
+        Scanner s = new Scanner(System.in);
+        System.out.println("Enter number of rows in first matrix:");
+        p = s.nextInt();
+        System.out.println("Enter numbers of columns in firs matrix:");
+        q = s.nextInt();
+        System.out.println("Enter numbers of rows in second matrix:");
+        m = s.nextInt();
+        System.out.println("Enter numbers of columns in second matrix:");
+        n = s.nextInt();
+        if(p == m && q == n)
+        {
+            int a [][] = new int [p][q];
+            int b [][] = new int [m][n];
+            int c [][] = new int [m][n];
+            System.out.println("Enter all the elements of first matrix");
+            for(int i = 0; i < p; i++)
+            {
+                for(int j = 0; j < q; j++)
+                {
+                    a[i][j] = s.nextInt();
+                }
+            }
+            System.out.println("Enter all the elements of second matrix:");
+            for(int i = 0; i < m; i++)
+            {
+                for(int j = 0; j < n; j++)
+                {
+                    b[i][j] = s.nextInt();
+                }
+            }
+            System.out.println("First Matrix:");
+            for(int i = 0; i < p; i++)
+            {
+                for(int j = 0; j < q; j++)
+                {
+                    System.out.println(a[i][j] + " ");
+                }
+                System.out.println("");
+            }
+            System.out.println("Second Matrix:");
+            for(int i = 0; i < m; i++)
+            {
+                for(int j = 0; j < n; j++)
+                {
+                    System.out.println(b[i][j] + " ");
+                }
+                System.out.println("");
+            }
+            for(int i = 0; i < p; i++)
+            {
+                for(int j = 0; j < n; j++)
+                {
+                    for(int k = 0; k < q; k++)
+                    {
+                        c[i][j] = a[i][j] + b [i][j];
+                    }
+                }
+            }
+            System.out.println("Matrix after addition:");
+            for(int j = 0; j < n; j++)
+            {
+                System.out.println("");
+            }
+        }
+        else
+        {
+            System.out.println("Addition would not be possible");
+        }
+
+    }
+}

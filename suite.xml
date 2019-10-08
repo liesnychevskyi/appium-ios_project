@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression">
+    <test name="Android">
+        <parameter name="ios_version" value="5"></parameter>
+        <classes>
+            <class name="appium_core.testNg_core.test_4"></class>
+        </classes>
+    </test>
+</suite>

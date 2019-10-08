@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression" duration-ms="48967" started-at="2019-10-08T16:04:39Z" finished-at="2019-10-08T16:05:28Z">
+    <groups>
+    </groups>
+    <test name="Android" duration-ms="48967" started-at="2019-10-08T16:04:39Z" finished-at="2019-10-08T16:05:28Z">
+      <class name="appium_core.tests.SwipeVertical">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:appium_core.tests.SwipeVertical@4e9ba398]" name="setUp" is-config="true" duration-ms="32601" started-at="2019-10-08T16:04:39Z" finished-at="2019-10-08T16:05:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verticalSwipe()[pri:0, instance:appium_core.tests.SwipeVertical@4e9ba398]" name="verticalSwipe" duration-ms="5340" started-at="2019-10-08T16:05:12Z" finished-at="2019-10-08T16:05:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verticalSwipe -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:appium_core.tests.SwipeVertical@4e9ba398]" name="tearDown" is-config="true" duration-ms="11006" started-at="2019-10-08T16:05:17Z" finished-at="2019-10-08T16:05:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- appium_core.tests.SwipeVertical -->
+    </test> <!-- Android -->
+  </suite> <!-- Regression -->
+</testng-results>
